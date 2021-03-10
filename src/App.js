@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Vision from "./views/visualx/vision"
 
 function App() {
   return (
     <div className="App">
+      
       <header className="App-header">
+      <Vision height={500} width={500}/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
